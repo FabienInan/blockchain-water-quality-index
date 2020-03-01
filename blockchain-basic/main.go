@@ -37,7 +37,6 @@ func calculateHash(block Block) string {
 	return hex.EncodeToString(hashed)
 }
 
-
 func generateBlock(oldBlock Block, WQI int) (Block, error) {
 
 	var newBlock Block
